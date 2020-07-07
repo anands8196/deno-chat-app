@@ -1,6 +1,5 @@
 # Real-time Chat App with Deno and Websockets
 
-## Demo
 
 ## Installation
 
