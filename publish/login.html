@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms</title>
+
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body class="chat-login">
+    <form action="index.html" class="login-chat-form">
+      <div class="form-header">
+        <h2>Chat Rooms</h2>
+      </div>
+      <div class="form-content">
+        <div class="input-group">
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            autocomplete="off"
+          />
+        </div>
+
+        <h3>Select a room to Enter</h3>
+        <div class="radio">
+          <input id="cooking" name="group" type="radio" value="Cooking" />
+          <label for="cooking" class="radio-label">Cooking</label>
+        </div>
+        <div class="radio">
+          <input id="sport" name="group" type="radio" value="Sport" />
+          <label for="sport" class="radio-label">Sport</label>
+        </div>
+        <div class="radio">
+          <input
+            id="engineering"
+            name="group"
+            type="radio"
+            value="Engineering"
+          />
+          <label for="engineering" class="radio-label">Engineering</label>
+        </div>
+        <div class="radio">
+          <input
+            id="programming"
+            name="group"
+            type="radio"
+            value="Programming"
+          />
+          <label for="programming" class="radio-label">Programming</label>
+        </div>
+      </div>
+      <div class="form-footer">
+        <button id="joinChatBtn">Enter Chat</button>
+      </div>
+    </form>
+  </body>
+</html>
